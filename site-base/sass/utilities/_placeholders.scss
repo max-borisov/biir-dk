@@ -1,0 +1,24 @@
+%afterClear {
+  display: block;
+  content: '';
+  clear: both;
+}
+%decorEl {
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  top: 0;
+}
+%vertical-aligment {
+  font-size: 0;
+  >* {
+    font-size: 14px;
+  }
+  &:after {
+    min-height: 100%;
+    display: inline-block;
+    content: '';
+    vertical-align: middle;
+  }
+}

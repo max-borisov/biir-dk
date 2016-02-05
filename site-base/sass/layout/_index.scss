@@ -1,0 +1,12 @@
+.logo, #nav, .footer-info-list {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.logo {
+  width:15%;
+  min-width: 145px;
+}
+#footer .holder {
+  width:90%;
+  margin:0 auto;
+}
