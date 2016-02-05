@@ -12,7 +12,7 @@
     "build-scss": "scss src/sass/style.scss:public/css/style.css",
     "watch-scss": "scss --watch src/scss/app.scss:public/css/app.css",
     "watch-compass": "compass watch",
-    "watch-jade": "jade src/templates/*.jade --watch --pretty --out public/",
+    "watch-jade": "jade src/templates/ --watch --pretty --out public/",
     "watch": "npm run watch-compass & npm run watch-jade"
   },
   "repository": {
