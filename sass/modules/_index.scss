@@ -1,0 +1,147 @@
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+  padding:15px 0 0;
+  position: relative;
+  overflow: hidden;
+  &:after {
+    @extend %afterClear;
+  }
+}
+#nav {
+  text-transform: uppercase;
+  font:28px $fontAdd;
+  ul {
+    &:after {
+      @extend %afterClear;
+    }
+    li {
+      float: left;
+      @include box-sizing(border-box);
+      padding:0 0 0 4px;
+      width:16.66%;
+    }
+    a {
+      color: $mainColor;
+      padding-bottom: 18px;
+      position: relative;
+      text-decoration: none;
+      display: block;
+
+      &:after {
+        @extend %decorEl;
+        height:4px;
+        width:100%;
+        background: $addColor;
+        right: 0;
+        top: auto;
+        bottom: 0;
+        @include transition-property(height);
+        @include transition-duration(0.2s);
+        @include transition-timing-function(ease-in);
+      }
+      &:hover:after {
+        height:8px;
+      }
+    }
+  }
+}
+.nav-toggle-btn {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background: $addColor;
+  @include border-radius(8px);
+  width:50px;
+  height:30px;
+  padding:4px 0;
+  color: #fff;
+  display: none;
+  text-decoration: none !important;
+  cursor: pointer;
+  span {
+    display: block;
+    background: #fff;
+    width:63%;
+    height: 2px;
+    margin:6px auto;
+    @include border-radius(1px);
+  }
+}
+.logo {
+  margin: 0;
+  padding:0 8px 0 0;
+  img {
+    width:100%;
+    display: block;
+    border: none;
+  }
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.wrapper {
+  max-width: $siteMaxWidth;
+  padding:0 $siteSidePaddings;
+  min-width: $siteMinWidth - $siteSidePaddings*2;
+  margin: 0 auto;
+}
+.promo-logo-holder {
+  text-align: center;
+  padding:12% 0;
+  img {
+    width:500px;
+    vertical-align: top;
+  }
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+  color: #fff;
+  padding:30px 0;
+  background: $addColor;
+  font-size: 17px;
+  a {
+    color: #fff;
+  }
+  .holder {
+    position: relative;
+    &:before {
+      @extend %decorEl;
+      height: 10px;
+      width:100%;
+      right: 0;
+    }
+  }
+  .logo {
+    min-width: 105px;
+  }
+}
+.footer-info-list {
+  li {
+    @include box-sizing(border-box);
+    width:25%;
+    float: left;
+    padding:0 5px 0 0;
+    text-align: left;
+    &:first-child {
+      width:40%;
+    }
+    &:last-child {
+      width:35%;
+    }
+  }
+  dl {
+    overflow: hidden;
+    dt {
+      float: left;
+      margin:0 4px 0 0;
+      clear: left;
+    }
+    dd {
+      float: left;
+    }
+  }
+  &:after {
+    @extend %afterClear;
+  }
+}
