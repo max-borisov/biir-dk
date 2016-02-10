@@ -10,7 +10,7 @@
 }
 #nav {
   text-transform: uppercase;
-  font:28px $fontAdd;
+  font:28px $fontHeaderNav;
   ul {
     &:after {
       @extend %afterClear;

@@ -10,7 +10,7 @@
 }
 #nav {
   text-transform: uppercase;
-  font:28px $fontAdd;
+  font:28px $fontHeaderNav;
   ul {
     &:after {
       @extend %afterClear;
@@ -27,7 +27,6 @@
       position: relative;
       text-decoration: none;
       display: block;
-
       &:after {
         @extend %decorEl;
         height:4px;
@@ -40,6 +39,7 @@
         @include transition-duration(0.2s);
         @include transition-timing-function(ease-in);
       }
+      &.active:after,
       &:hover:after {
         height:8px;
       }
@@ -93,6 +93,9 @@
     vertical-align: top;
   }
 }
+.middle {
+  padding: 45px 0 40px;
+}
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
@@ -100,6 +103,7 @@
   padding:30px 0;
   background: $addColor;
   font-size: 17px;
+  position: relative;
   a {
     color: #fff;
   }
@@ -110,6 +114,8 @@
       height: 10px;
       width:100%;
       right: 0;
+      background: #fff;
+      top: -30px;
     }
   }
   .logo {
@@ -130,18 +136,48 @@
       width:35%;
     }
   }
-  dl {
-    overflow: hidden;
-    dt {
-      float: left;
-      margin:0 4px 0 0;
-      clear: left;
-    }
-    dd {
-      float: left;
-    }
-  }
   &:after {
     @extend %afterClear;
   }
 }
+/* helper-class
+-----------------------------------------------------------------------------*/
+.blue {
+  color: $addColor;
+}
+.serif-text {
+  font:italic 13px Gerogia, "Times New Roman", serif;
+}
+.tel {
+  color: $textColor;
+  text-decoration: none;
+}
+.mark-list {
+  li {
+    margin: 0 0 10px;
+    &:before {
+      content: '-';
+      display: inline-block;
+      margin: 0 4px 0 0;
+    }
+  }
+}
+/* about page style
+-----------------------------------------------------------------------------*/
+@import "about/index.scss";
+
+/* services page style
+-----------------------------------------------------------------------------*/
+@import "services/index.scss";
+
+/* work page style
+-----------------------------------------------------------------------------*/
+@import "work/index.scss";
+
+/* team page style
+-----------------------------------------------------------------------------*/
+@import "team/index.scss";
+
+/* contact page style
+-----------------------------------------------------------------------------*/
+@import "contact/index.scss";
