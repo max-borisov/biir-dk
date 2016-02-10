@@ -75,10 +75,6 @@
     display: block;
     ul {
       height: 0;
-      opacity: 0;
-      @include transition-property(all);
-      @include transition-duration(0.6s);
-      @include transition-timing-function(ease-in);
       li {
         float: none;
         width:100%;

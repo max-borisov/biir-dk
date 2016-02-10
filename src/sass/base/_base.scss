@@ -36,6 +36,9 @@
   font-stretch: normal;
   unicode-range: U+0020-2666;
 }
+html, body {
+  height: 100%;
+}
 body {
   font:$fontSize $fontMain, sans-serif;
   line-height:1.5;
