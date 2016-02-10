@@ -10,10 +10,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-scss": "scss src/sass/style.scss:public/css/style.css",
+    "build-jade": "jade src/templates/ --pretty --out public/",
     "watch-scss": "scss --watch src/scss/app.scss:public/css/app.css",
     "watch-compass": "compass watch",
+    "build-compass": "compass compile",
     "watch-jade": "jade src/templates/ --watch --pretty --out public/",
-    "watch": "npm run watch-compass & npm run watch-jade"
+    "watch": "npm run watch-compass & npm run watch-jade",
+    "build": "npm run build-compass & npm run build-jade"
   },
   "repository": {
     "type": "git",
