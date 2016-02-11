@@ -9,16 +9,16 @@ header#header
       span 
     ul
       li
-        a(href='about.html') About
+        a(href='about.html' class=page == 'about' ? 'active' : '') About
       li
-        a(href='services.html') Services
+        a(href='services.html' class=page == 'services' ? 'active' : '') Services
       li
-        a(href='work.html') Work
+        a(href='work.html' class=page == 'work' ? 'active' : '') Work
       li
-        a(href='team.html') Team
+        a(href='team.html' class=page == 'team' ? 'active' : '') Team
       li
-        a(href='contact.html') Contact
+        a(href='contact.html' class=page == 'contact' ? 'active' : '') Contact
       li
-        a(href='job.html') Job
+        a(href='job.html' class=page == 'job' ? 'active' : '') Job
   // #nav
 // .header
