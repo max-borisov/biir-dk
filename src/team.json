@@ -65,7 +65,7 @@
         "id": "afk",
         "fname": "Annette",
         "sname": "Kjærgaard",
-        "image": "Annette Kjærgaard.jpg",
+        "image": "Annette Kjaergaard.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -225,7 +225,7 @@
         "id": "eok",
         "fname": "Esben Østergaard",
         "sname": "Kjeldsen",
-        "image": "Esben Østergaard Kjeldsen.jpg",
+        "image": "Esben Ostergaard Kjeldsen.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -265,7 +265,7 @@
         "id": "hel",
         "fname": "Henrik",
         "sname": "Løvschal",
-        "image": "Henrik Løvschal.jpg",
+        "image": "Henrik Lovschal.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -295,7 +295,7 @@
         "id": "hts",
         "fname": "Henrik Timm",
         "sname": "Sørensen",
-        "image": "Henrik Timm Sørensen.jpg",
+        "image": "Henrik Timm Sorensen.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -305,7 +305,7 @@
         "id": "ipd",
         "fname": "Iben Høiris",
         "sname": "Overgaard",
-        "image": "Iben Høiris Overgaard.jpg",
+        "image": "Iben Hoiris Overgaard.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -449,7 +449,7 @@
         "id": "jmm",
         "fname": "Jeppe Mølbach",
         "sname": "Mortensen",
-        "image": "Jeppe Mølbach Mortensen.jpg",
+        "image": "Jeppe Molbach Mortensen.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -489,7 +489,7 @@
         "id": "kam",
         "fname": "Kasper",
         "sname": "Møberg",
-        "image": "Kasper Møberg.jpg",
+        "image": "Kasper Moberg.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -529,7 +529,7 @@
         "id": "lch",
         "fname": "Lars Chopart",
         "sname": "Høy",
-        "image": "Lars Høy.jpg",
+        "image": "Lars Hoy.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -539,7 +539,7 @@
         "id": "lkl",
         "fname": "Lars Kjærgård",
         "sname": "Kjærgaard Lorentzen",
-        "image": "Lars Kjærgaard Lorentzen.jpg",
+        "image": "Lars Kjaergaard Lorentzen.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -579,7 +579,7 @@
         "id": "lel",
         "fname": "Lene",
         "sname": "Læsøe",
-        "image": "Lene Læsøe.jpg",
+        "image": "Lene Laesoe.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -629,7 +629,7 @@
         "id": "mkn",
         "fname": "Martin Kjærgård",
         "sname": "Nielsen",
-        "image": "Martin Kjærgård Nielsen.jpg",
+        "image": "Martin Kjargard Nielsen.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -660,7 +660,7 @@
         "id": "mmt",
         "fname": "Morten",
         "sname": "Mørkholt",
-        "image": "Morten Mørkholt.jpg",
+        "image": "Morten Morkholt.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -857,7 +857,7 @@
         "id": "sem",
         "fname": "Stefan",
         "sname": "Møberg",
-        "image": "Stefan Møberg.jpg",
+        "image": "Stefan Moberg.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -888,7 +888,7 @@
         "id": "sgt",
         "fname": "Søren Grandjean",
         "sname": "Thrane",
-        "image": "Søren Grandjean Thrane.jpg",
+        "image": "Soren Grandjean Thrane.jpg",
         "Skill": [
           "Not set",
           "Mechanical"
