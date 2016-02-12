@@ -1,21 +1,35 @@
 // 'use strict';
 
-$(function(){
-  var team = JSON.parse(teamJSON);
-  console.log(team);
+$(function() {
+  var team = JSON.parse(teamJSON).BiirTeam.Employee;
   var teamBox = $('.team-box .team-list');
   renderTeam(team, teamBox);
+
+  $('#search-f').keyup(function() {
+    var name = this.value.trim();
+    if (!name) return;
+    // console.log(name);
+    searchTeam = searchTeamMembers(team, name);
+    renderTeam(searchTeam, teamBox);
+  });
 })
 
+var searchName = '';
 function searchTeamMembers(team, name) {
-  return team;
+  searchName = name;
+  var fullName = '';
+  return team.filter(function (item) {
+    fullName = item.fname + ' ' + item.sname;
+    return fullName.search(new RegExp(searchName, 'i')) >= 0
+  })
 }
 
 function renderTeam(team, teamBox) {
-  teamBox.find('li').remove();
-  var employees = '';
-  team.BiirTeam.Employee.forEach(function(employee) {
-    employees += '<li><img src="images/faces/' + employee.image.replace(/\s/g, '-') + '" alt="" /></li>';
-  });
+  var image, alt;
+  employees = team.map(function(employee) {
+    image = employee.image.replace(/\s/g, '-');
+    alt = employee.fname + ' ' + employee.sname;
+    return '<li><img src="images/faces/' + image + '" alt="' + alt + '" /></li>';
+  }).join('');
   teamBox.html(employees);
 }
