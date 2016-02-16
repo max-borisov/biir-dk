@@ -238,7 +238,7 @@ dl dd {
 }
 
 .logo {
-  width: 15%;
+  width: 16%;
   min-width: 145px;
 }
 
@@ -327,7 +327,7 @@ dl dd {
 }
 #nav ul a {
   color: #000;
-  padding-bottom: 9px;
+  padding-bottom: 10px;
   position: relative;
   text-decoration: none;
   display: block;
@@ -571,7 +571,7 @@ dl dd {
 /* team page style
 -----------------------------------------------------------------------------*/
 .team-box-holder {
-  height: 428px;
+  height: 800px;
   overflow-y: scroll;
 }
 
@@ -651,10 +651,27 @@ dl dd {
   .middle {
     width: 90%;
   }
+
+  .logo {
+    width: 19%;
+  }
+
+  #nav ul a {
+    padding-bottom: 13px;
+  }
+}
+@media only screen and (max-width: 1150px), only screen and (max-device-width: 1150px) {
+  #nav ul a {
+    padding-bottom: 11px;
+  }
 }
 @media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
   .team-list li {
     width: 50%;
+  }
+
+  #nav ul a {
+    padding-bottom: 10px;
   }
 }
 @media only screen and (max-width: 975px), only screen and (max-device-width: 975px) {
@@ -673,6 +690,10 @@ dl dd {
 
   .services-box .l-33-fl {
     padding-right: 40px;
+  }
+
+  #nav ul a {
+    padding-bottom: 9px;
   }
 }
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
@@ -812,6 +833,10 @@ dl dd {
     padding: 0 0 10px;
     margin: 0;
   }
+
+  .team-box-holder {
+    height: 395px;
+  }
 }
 @media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
   .work-box iframe {
@@ -833,10 +858,6 @@ dl dd {
   .work-box iframe {
     height: 240px;
   }
-
-  .team-box-holder {
-    height: 340px;
-  }
 }
 @media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
   h2 {
@@ -853,17 +874,9 @@ dl dd {
   .work-box iframe {
     height: 200px;
   }
-
-  .team-box-holder {
-    height: 300px;
-  }
 }
 @media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
   .work-box iframe {
     height: 170px;
-  }
-
-  .team-box-holder {
-    height: 270px;
   }
 }

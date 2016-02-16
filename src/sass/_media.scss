@@ -5,10 +5,24 @@
   .middle {
     width: 90%;
   }
+  .logo {
+    width: 19%;
+  }
+  #nav ul a {
+    padding-bottom: 13px;
+  }
+}
+@media only screen and (max-width: 1150px), only screen and (max-device-width: 1150px) {
+  #nav ul a {
+    padding-bottom: 11px;
+  }
 }
 @media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
   .team-list li {
     width: 50%;
+  }
+  #nav ul a {
+    padding-bottom: 10px;
   }
 }
 @media only screen and (max-width: 975px), only screen and (max-device-width: 975px) {
@@ -24,6 +38,9 @@
   }
   .services-box .l-33-fl {
     padding-right: 40px;
+  }
+  #nav ul a {
+    padding-bottom: 9px;
   }
 }
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
@@ -159,6 +176,9 @@
       }
     }
   }
+  .team-box-holder {
+    height: 395px;
+  }
 }
 @media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
   .work-box iframe {
@@ -178,9 +198,6 @@
   .work-box iframe {
     height: 240px;
   }
-  .team-box-holder {
-    height: 340px;
-  }
 }
 @media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
   h2 {
@@ -195,15 +212,9 @@
   .work-box iframe {
     height: 200px;
   }
-  .team-box-holder {
-    height: 300px;
-  }
 }
 @media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
   .work-box iframe {
     height: 170px;
-  }
-  .team-box-holder {
-    height: 270px;
   }
 }
