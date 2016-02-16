@@ -24,7 +24,7 @@
 }
 %wrapper-holder {
   max-width: $siteMaxWidth;
-  padding:0 $siteSidePaddings;
+ // padding:0 $siteSidePaddings;
   min-width: $siteMinWidth - $siteSidePaddings*2;
   margin: 0 auto;
 }

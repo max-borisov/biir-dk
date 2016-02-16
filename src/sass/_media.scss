@@ -2,14 +2,15 @@
   .services-box .l-33-fl {
     padding-right: 60px;
   }
-  .middle {
-    width: 90%;
-  }
   .logo {
     width: 19%;
   }
   #nav ul a {
     padding-bottom: 13px;
+  }
+  #header {
+    padding:15px $siteSidePaddings 0;
+    @include box-sizing(border-box);
   }
 }
 @media only screen and (max-width: 1150px), only screen and (max-device-width: 1150px) {
@@ -84,11 +85,14 @@
     display: block;
     z-index:1;
   }
-  #header .logo {
-    position: absolute;
-    top: 15px;
-    left: 0;
-    z-index:1;
+  #header {
+    display: block;
+    .logo {
+      position: absolute;
+      top: 15px;
+      left: 10px;
+      z-index:1;
+    }
   }
   #nav {
     vertical-align: middle;
@@ -191,9 +195,6 @@
   }
   #footer {
     font-size: 14px;
-    .holder {
-      width:95%;
-    }
   }
   .work-box iframe {
     height: 240px;
@@ -205,9 +206,6 @@
   }
   #footer {
     font-size: 14px;
-    .holder {
-      width:95%;
-    }
   }
   .work-box iframe {
     height: 200px;

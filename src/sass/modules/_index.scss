@@ -4,6 +4,8 @@
   padding:15px 0 0;
   position: relative;
   overflow: hidden;
+  display: table;
+  width: 100%;
   &:after {
     @extend %afterClear;
   }
@@ -49,7 +51,7 @@
 .nav-toggle-btn {
   position: absolute;
   top: 20px;
-  right: 0;
+  right: 10px;
   background: $addColor;
   @include border-radius(8px);
   width:50px;
@@ -97,6 +99,9 @@
   padding: 45px 0 40px;
   width: 91.5%;
   margin: 0 auto;
+  >h2 {
+    margin-left: -3.5px;
+  }
 }
 /* Footer
 -----------------------------------------------------------------------------*/
@@ -119,6 +124,7 @@
   }
   .holder {
     position: relative;
+    display: table;
     &:before {
       @extend %decorEl;
       height: 10px;

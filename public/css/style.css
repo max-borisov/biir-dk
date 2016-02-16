@@ -14,7 +14,6 @@
 
 .wrapper, #footer .footer-holder {
   max-width: 1250px;
-  padding: 0 10px;
   min-width: 300px;
   margin: 0 auto;
 }
@@ -243,7 +242,7 @@ dl dd {
 }
 
 #footer .holder {
-  width: 90%;
+  width: 91.5%;
   margin: 0 auto;
 }
 
@@ -311,6 +310,8 @@ dl dd {
   padding: 15px 0 0;
   position: relative;
   overflow: hidden;
+  display: table;
+  width: 100%;
 }
 
 #nav {
@@ -359,7 +360,7 @@ dl dd {
 .nav-toggle-btn {
   position: absolute;
   top: 20px;
-  right: 0;
+  right: 10px;
   background: #22c3f2;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -417,6 +418,9 @@ dl dd {
   width: 91.5%;
   margin: 0 auto;
 }
+.middle > h2 {
+  margin-left: -3.5px;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
@@ -439,6 +443,7 @@ dl dd {
 }
 #footer .holder {
   position: relative;
+  display: table;
 }
 #footer .holder:before {
   height: 10px;
@@ -648,16 +653,19 @@ dl dd {
     padding-right: 60px;
   }
 
-  .middle {
-    width: 90%;
-  }
-
   .logo {
     width: 19%;
   }
 
   #nav ul a {
     padding-bottom: 13px;
+  }
+
+  #header {
+    padding: 15px 10px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
 }
 @media only screen and (max-width: 1150px), only screen and (max-device-width: 1150px) {
@@ -740,10 +748,13 @@ dl dd {
     z-index: 1;
   }
 
+  #header {
+    display: block;
+  }
   #header .logo {
     position: absolute;
     top: 15px;
-    left: 0;
+    left: 10px;
     z-index: 1;
   }
 
@@ -851,9 +862,6 @@ dl dd {
   #footer {
     font-size: 14px;
   }
-  #footer .holder {
-    width: 95%;
-  }
 
   .work-box iframe {
     height: 240px;
@@ -866,9 +874,6 @@ dl dd {
 
   #footer {
     font-size: 14px;
-  }
-  #footer .holder {
-    width: 95%;
   }
 
   .work-box iframe {
