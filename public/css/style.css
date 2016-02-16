@@ -327,7 +327,7 @@ dl dd {
 }
 #nav ul a {
   color: #000;
-  padding-bottom: 18px;
+  padding-bottom: 9px;
   position: relative;
   text-decoration: none;
   display: block;
@@ -353,7 +353,7 @@ dl dd {
   transition-timing-function: ease-in;
 }
 #nav ul a.active:after, #nav ul a:hover:after {
-  height: 8px;
+  height: 7px;
 }
 
 .nav-toggle-btn {
@@ -414,6 +414,8 @@ dl dd {
 
 .middle {
   padding: 45px 0 40px;
+  width: 91.5%;
+  margin: 0 auto;
 }
 
 /* Footer
@@ -568,6 +570,11 @@ dl dd {
 
 /* team page style
 -----------------------------------------------------------------------------*/
+.team-box-holder {
+  height: 428px;
+  overflow-y: scroll;
+}
+
 .team-box {
   display: table;
   padding: 20px 0 0;
@@ -605,6 +612,9 @@ dl dd {
   width: 33.333%;
 }
 .team-list li img {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: block;
   border: 1px solid #000;
   width: 100%;
@@ -636,6 +646,10 @@ dl dd {
 @media only screen and (max-width: 1250px), only screen and (max-device-width: 1250px) {
   .services-box .l-33-fl {
     padding-right: 60px;
+  }
+
+  .middle {
+    width: 90%;
   }
 }
 @media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
@@ -676,7 +690,7 @@ dl dd {
   .work-box img.l-600-fx,
   .work-box iframe {
     width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 12px;
     display: block;
   }
 
@@ -692,10 +706,11 @@ dl dd {
     display: block;
   }
   .team-box .team-list {
-    margin: 0 -5px;
+    margin: 0 0 0 -5px;
   }
   .team-box .team-list li {
     padding: 0 5px 10px 5px;
+    margin: 0;
   }
 }
 @media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
@@ -751,6 +766,7 @@ dl dd {
     width: 70%;
   }
 
+  .middle,
   #footer .holder {
     width: 93%;
   }
@@ -794,7 +810,7 @@ dl dd {
   .team-box .team-list li {
     width: 100%;
     padding: 0 0 10px;
-    margin: 0 0 0 -4px;
+    margin: 0;
   }
 }
 @media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
@@ -817,6 +833,10 @@ dl dd {
   .work-box iframe {
     height: 240px;
   }
+
+  .team-box-holder {
+    height: 340px;
+  }
 }
 @media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
   h2 {
@@ -833,9 +853,17 @@ dl dd {
   .work-box iframe {
     height: 200px;
   }
+
+  .team-box-holder {
+    height: 300px;
+  }
 }
 @media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
   .work-box iframe {
     height: 170px;
+  }
+
+  .team-box-holder {
+    height: 270px;
   }
 }

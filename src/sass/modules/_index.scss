@@ -23,7 +23,7 @@
     }
     a {
       color: $mainColor;
-      padding-bottom: 18px;
+      padding-bottom: 9px;
       position: relative;
       text-decoration: none;
       display: block;
@@ -41,7 +41,7 @@
       }
       &.active:after,
       &:hover:after {
-        height:8px;
+        height:7px;
       }
     }
   }
@@ -95,6 +95,8 @@
 }
 .middle {
   padding: 45px 0 40px;
+  width: 91.5%;
+  margin: 0 auto;
 }
 /* Footer
 -----------------------------------------------------------------------------*/
