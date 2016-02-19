@@ -5,7 +5,7 @@
         "id": "jbc",
         "fname": "Jonas Bojer",
         "sname": "Christensen",
-        "image": "Jonas Bojer Christensen.jpg",
+        "image": "Jonas Bojer Christensen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -15,7 +15,7 @@
         "id": "alp",
         "fname": "Aleksey",
         "sname": "Pashentlev",
-        "image": "Aleksey Pashentlev.jpg",
+        "image": "Aleksey Pashentsev.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -25,7 +25,7 @@
         "id": "ash",
         "fname": "Alexandr",
         "sname": "Shapoval",
-        "image": "Alexandr Shapoval.jpg",
+        "image": "Alexandr Shapoval.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -35,7 +35,7 @@
         "id": "ant",
         "fname": "Andrey",
         "sname": "Tanchenko",
-        "image": "Andrey Tanchenko.jpg",
+        "image": "Andrey Tanchenko.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -45,7 +45,7 @@
         "id": "aia",
         "fname": "Andrii",
         "sname": "Iakymovych",
-        "image": "Andrii Iakymovych.jpg",
+        "image": "Andrii Iakymovych.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -55,7 +55,7 @@
         "id": "ang",
         "fname": "Anna",
         "sname": "Golieva",
-        "image": "Anna Golieva.jpg",
+        "image": "Anna Golieva.png",
         "Skill": [
           "Not set",
           "Electrical"
@@ -65,7 +65,7 @@
         "id": "afk",
         "fname": "Annette",
         "sname": "Kjærgaard",
-        "image": "Annette Kjaergaard.jpg",
+        "image": "Annette Kjaergaard.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -75,7 +75,7 @@
         "id": "aku",
         "fname": "Artem",
         "sname": "Kuchko",
-        "image": "Artem Kuchko.jpg",
+        "image": "Artem Kuchko.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -85,7 +85,7 @@
         "id": "bke",
         "fname": "Benny Kolbeck",
         "sname": "Ensted",
-        "image": "Benny Kolbeck Ensted.jpg",
+        "image": "Benny Kolbeck Ensted.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -95,7 +95,7 @@
         "id": "bbk",
         "fname": "Bjarke Bertel",
         "sname": "Krarup",
-        "image": "Bjarke Bertel Krarup.jpg",
+        "image": "Bjarke Bertel Krarup.png",
         "Skill": [
           "Not set",
           "Mechatronics"
@@ -105,7 +105,7 @@
         "id": "bhj",
         "fname": "Bjarke Harbo",
         "sname": "Jakobsen",
-        "image": "Bjarke Harbo Jakobsen.jpg",
+        "image": "Bjarke Harbo Jakobsen.png",
         "Skill": [
           "Not set",
           "Mechatronics"
@@ -115,7 +115,7 @@
         "id": "cmn",
         "fname": "Christian Mark",
         "sname": "Nielsen",
-        "image": "Christian Mark Nielsen.jpg",
+        "image": "Christian Mark Nielsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -125,17 +125,7 @@
         "id": "cmu",
         "fname": "Christian",
         "sname": "Munk",
-        "image": "Christian Munk.jpg",
-        "Skill": [
-          "Not set",
-          "Mechanical"
-        ]
-      },
-      {
-        "id": "cbu",
-        "fname": "Claus",
-        "sname": "Burchardt",
-        "image": "Claus Burchardt.jpg",
+        "image": "Christian Munk.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -145,7 +135,7 @@
         "id": "ddh",
         "fname": "Dennis Damborg",
         "sname": "Hansen",
-        "image": "Dennis Damborg Hansen.jpg",
+        "image": "Dennis Damborg Hansen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -155,7 +145,7 @@
         "id": "dll",
         "fname": "Dennis Lykke",
         "sname": "Larsen",
-        "image": "Dennis Lykke Larsen.jpg",
+        "image": "Dennis Lykke Larsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -165,7 +155,7 @@
         "id": "dko",
         "fname": "Denys",
         "sname": "Kotushenko",
-        "image": "Denys Kotushenko.jpg",
+        "image": "Denys Kotushenko.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -173,9 +163,9 @@
       },
       {
         "id": "deg",
-        "fname": "Denys",
+        "fname": "Denis",
         "sname": "Gorlov",
-        "image": "Denys Gorlov.jpg",
+        "image": "Denis Gorlov.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -185,7 +175,7 @@
         "id": "dia",
         "fname": "Dinara",
         "sname": "Akzhygitova",
-        "image": "Dinara Akzhygitova.jpg",
+        "image": "Dinara Akzhygitova.png",
         "Skill": [
           "Not set",
           "Administration"
@@ -195,7 +185,7 @@
         "id": "dts",
         "fname": "Dmitry",
         "sname": "Tsurkan",
-        "image": "Dmitry Tsurkan.jpg",
+        "image": "Dmitry Tsurkan.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -205,7 +195,7 @@
         "id": "dsa",
         "fname": "Dmytro",
         "sname": "Sava",
-        "image": "Dmytro Sava.jpg",
+        "image": "Dmytro Sava.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -215,7 +205,7 @@
         "id": "eei",
         "fname": "Esben Eskerod",
         "sname": "Ifversen",
-        "image": "Esben Eskerod Ifversen.jpg",
+        "image": "Esben Eskerod Ifversen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -225,7 +215,7 @@
         "id": "eok",
         "fname": "Esben Østergaard",
         "sname": "Kjeldsen",
-        "image": "Esben Ostergaard Kjeldsen.jpg",
+        "image": "Esben Ostergaard Kjeldsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -234,8 +224,8 @@
       {
         "id": "epl",
         "fname": "Eugene",
-        "sname": "Plokhotnyk",
-        "image": "Eugene Plokhotnyk.jpg",
+        "sname": "Plokhotnyuk",
+        "image": "Eugene Plokhotnyuk.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -245,7 +235,7 @@
         "id": "fbh",
         "fname": "Flemming Balle",
         "sname": "Hansen",
-        "image": "Flemming Balle Hansen.jpg",
+        "image": "Flemming Balle Hansen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -255,7 +245,7 @@
         "id": "hdr",
         "fname": "Henrik Doering Damm",
         "sname": "Reuther",
-        "image": "Henrik Doering Damm Reuther.jpg",
+        "image": "Henrik Doering Damm Reuther.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -265,7 +255,7 @@
         "id": "hel",
         "fname": "Henrik",
         "sname": "Løvschal",
-        "image": "Henrik Lovschal.jpg",
+        "image": "Henrik Lovschal.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -275,7 +265,7 @@
         "id": "hej",
         "fname": "Henrik Riis",
         "sname": "Jacobsen",
-        "image": "Henrik Riis Jacobsen.jpg",
+        "image": "Henrik Riis Jacobsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -285,7 +275,7 @@
         "id": "hsk",
         "fname": "Henrik Svenstrup",
         "sname": "Kristensen",
-        "image": "Henrik Svenstrup Kristensen.jpg",
+        "image": "Henrik Svenstrup Kristensen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -295,17 +285,7 @@
         "id": "hts",
         "fname": "Henrik Timm",
         "sname": "Sørensen",
-        "image": "Henrik Timm Sorensen.jpg",
-        "Skill": [
-          "Not set",
-          "Mechanical"
-        ]
-      },
-      {
-        "id": "ipd",
-        "fname": "Iben Høiris",
-        "sname": "Overgaard",
-        "image": "Iben Hoiris Overgaard.jpg",
+        "image": "Henrik Timm Sorensen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -315,7 +295,7 @@
         "id": "imb",
         "fname": "Ida Marie",
         "sname": "Bundgaard",
-        "image": "Ida Marie Bundgaard.jpg",
+        "image": "Ida Marie Bundgaard.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -325,7 +305,7 @@
         "id": "iep",
         "fname": "Ievgen",
         "sname": "Peleshko",
-        "image": "Ievgen Peleshko.jpg",
+        "image": "Ievgen Peleshko.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -335,7 +315,7 @@
         "id": "ine",
         "fname": "Igor",
         "sname": "Nepran",
-        "image": "Igor Nepran.jpg",
+        "image": "Igor Nepran.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -345,7 +325,7 @@
         "id": "iri",
         "fname": "Igor",
         "sname": "Riva",
-        "image": "Igor Riva.jpg",
+        "image": "Igor Riva.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -355,7 +335,7 @@
         "id": "ibi",
         "fname": "Iryna",
         "sname": "Belokopitova",
-        "image": "Iryna Bilokopytova.jpg",
+        "image": "Iryna Bilokopytova.png",
         "Skill": [
           "Electrical",
           "High voltage",
@@ -369,7 +349,7 @@
         "id": "ich",
         "fname": "Iryna",
         "sname": "Chernenko",
-        "image": "Iryna Chernenko.jpg",
+        "image": "Iryna Chernenko.png",
         "Skill": [
           "Not set",
           "administration"
@@ -379,7 +359,7 @@
         "id": "iza",
         "fname": "Iurii",
         "sname": "Zaitsev",
-        "image": "Iurii Zaitsev.jpg",
+        "image": "Iurii Zaitsev.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -389,7 +369,7 @@
         "id": "ivy",
         "fname": "Ivan",
         "sname": "Yermak",
-        "image": "Ivan Yermak.jpg",
+        "image": "Ivan Yermak.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -399,7 +379,7 @@
         "id": "jah",
         "fname": "Jan",
         "sname": "Hornbech",
-        "image": "Jan Hornbech.jpg",
+        "image": "Jan Hornbech.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -409,17 +389,7 @@
         "id": "jai",
         "fname": "Jan",
         "sname": "Ipsen",
-        "image": "Jan Ipsen.jpg",
-        "Skill": [
-          "Not set",
-          "Mechanical"
-        ]
-      },
-      {
-        "id": "jmn",
-        "fname": "Jan Magnus",
-        "sname": "Nielsen",
-        "image": "Jan Magnus Nielsen.jpg",
+        "image": "Jan Ipsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -429,7 +399,7 @@
         "id": "jol",
         "fname": "Jann",
         "sname": "Olesen",
-        "image": "Jann Olesen.jpg",
+        "image": "Jann Olesen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -439,7 +409,7 @@
         "id": "jjt",
         "fname": "Jens Jacob",
         "sname": "Troensegaard",
-        "image": "Jens Jacob Troensegaard.jpg",
+        "image": "Jens Jacob Troensegaard.png",
         "Skill": [
           "Not set",
           "administration"
@@ -449,7 +419,7 @@
         "id": "jmm",
         "fname": "Jeppe Mølbach",
         "sname": "Mortensen",
-        "image": "Jeppe Molbach Mortensen.jpg",
+        "image": "Jeppe Mortensen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -459,7 +429,7 @@
         "id": "jbe",
         "fname": "John",
         "sname": "Bech",
-        "image": "John Bech.jpg",
+        "image": "John Bech.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -469,7 +439,7 @@
         "id": "jkg",
         "fname": "John Keldgaard",
         "sname": "Grevsen",
-        "image": "John Keldgaard Grevsen.jpg",
+        "image": "John Keldgaard Grevsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -479,7 +449,7 @@
         "id": "jbj",
         "fname": "Jonas Bilberg",
         "sname": "Juhl",
-        "image": "Jonas Bilberg Juhl.jpg",
+        "image": "Jonas Bilberg Juhl.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -489,7 +459,7 @@
         "id": "kam",
         "fname": "Kasper",
         "sname": "Møberg",
-        "image": "Kasper Moberg.jpg",
+        "image": "Kasper Moberg.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -499,7 +469,7 @@
         "id": "kem",
         "fname": "Katrine Elsig",
         "sname": "Mortensen",
-        "image": "Katrine Elsig Mortensen.jpg",
+        "image": "Katrine Elsig Mortensen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -509,7 +479,7 @@
         "id": "kel",
         "fname": "Kenneth Erik",
         "sname": "Lauritzen",
-        "image": "Kenneth Erik Lauritzen.jpg",
+        "image": "Kenneth Erik Lauritzen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -519,7 +489,7 @@
         "id": "kot",
         "fname": "Konstiantyn",
         "sname": "Trunin",
-        "image": "Konstiantyn Trunin.jpg",
+        "image": "Konstiantyn Trunin.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -529,7 +499,7 @@
         "id": "lch",
         "fname": "Lars Chopart",
         "sname": "Høy",
-        "image": "Lars Hoy.jpg",
+        "image": "Lars Hoy.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -539,7 +509,7 @@
         "id": "lkl",
         "fname": "Lars Kjærgård",
         "sname": "Kjærgaard Lorentzen",
-        "image": "Lars Kjaergaard Lorentzen.jpg",
+        "image": "Lars Kjaergaard Lorentzen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -549,7 +519,7 @@
         "id": "llt",
         "fname": "Lars Lund",
         "sname": "Thomsen",
-        "image": "Lars Lund Thomsen.jpg",
+        "image": "Lars Lund Thomsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -559,7 +529,7 @@
         "id": "lvk",
         "fname": "Lars Vinther",
         "sname": "Kappel",
-        "image": "Lars Vinther Kappel.jpg",
+        "image": "Lars Vinther Kappel.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -569,7 +539,7 @@
         "id": "lvk",
         "fname": "Leif",
         "sname": "Borup Hansen",
-        "image": "Leif Borup Hansen.jpg",
+        "image": "Leif Borup Hansen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -579,7 +549,7 @@
         "id": "lel",
         "fname": "Lene",
         "sname": "Læsøe",
-        "image": "Lene Laesoe.jpg",
+        "image": "Lene Laesoe.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -589,7 +559,7 @@
         "id": "lin",
         "fname": "Lilian",
         "sname": "Nielsen",
-        "image": "Lilian Nielsen.jpg",
+        "image": "Lilian Nielsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -599,7 +569,7 @@
         "id": "mbo",
         "fname": "Mads Beck",
         "sname": "Olsen",
-        "image": "Mads Beck Olsen.jpg",
+        "image": "Mads Beck Olsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -609,7 +579,7 @@
         "id": "mba",
         "fname": "Malene Bartens",
         "sname": "Malene Bartens",
-        "image": "Malene Bartens.jpg",
+        "image": "Malene Bartens.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -619,7 +589,7 @@
         "id": "maj",
         "fname": "Martin",
         "sname": "Jerga",
-        "image": "Martin Jerga.jpg",
+        "image": "Martin Jerga.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -629,7 +599,7 @@
         "id": "mkn",
         "fname": "Martin Kjærgård",
         "sname": "Nielsen",
-        "image": "Martin Kjargard Nielsen.jpg",
+        "image": "Martin Kjaergard Nielsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -639,7 +609,7 @@
         "id": "mev",
         "fname": "Mette Vestergaard",
         "sname": "Christensen",
-        "image": "Mette Vestergaard Christensen.jpg",
+        "image": "Mette Vestergaard Christensen.png",
         "Skill": [
           "Not set",
           "Industrial Design",
@@ -650,7 +620,7 @@
         "id": "mhr",
         "fname": "Michael Hjort",
         "sname": "Rasmussen",
-        "image": "Michael Hjort Rasmussen.jpg",
+        "image": "Michael Hjort Rasmussen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -660,7 +630,7 @@
         "id": "mmt",
         "fname": "Morten",
         "sname": "Mørkholt",
-        "image": "Morten Morkholt.jpg",
+        "image": "Morten Morkholt.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -670,7 +640,7 @@
         "id": "msi",
         "fname": "Morten",
         "sname": "Simonsen",
-        "image": "Morten Simonsen.jpg",
+        "image": "Morten Simonsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -680,7 +650,7 @@
         "id": "nom",
         "fname": "Nermin",
         "sname": "Omerovic",
-        "image": "Nermin Omerovic.jpg",
+        "image": "Nermin Omerovic.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -690,7 +660,7 @@
         "id": "nls",
         "fname": "Nicole Lajgaard",
         "sname": "Solgaard",
-        "image": "Nicole Lajgaard Solgaard.jpg",
+        "image": "Nicole Lajgaard Solgaard.png",
         "Skill": [
           "Not set",
           "administration"
@@ -700,7 +670,7 @@
         "id": "okr",
         "fname": "Ole",
         "sname": "Krarup",
-        "image": "Ole Krarup.jpg",
+        "image": "Ole Krarup.png",
         "Skill": [
           "Electrical",
           "Project Management",
@@ -727,7 +697,7 @@
         "id": "zol",
         "fname": "Oleksandr",
         "sname": "Zagnoi",
-        "image": "Oleksandr Zagnoi.jpg",
+        "image": "Oleksandr Zagnoi.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -737,7 +707,7 @@
         "id": "oto",
         "fname": "Oleksii",
         "sname": "Tolochko",
-        "image": "Oleksii Tolochko.jpg",
+        "image": "Oleksii Tolochko.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -747,7 +717,7 @@
         "id": "oki",
         "fname": "Olga",
         "sname": "Kii",
-        "image": "Olga Kii.jpg",
+        "image": "Olga Kii.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -757,7 +727,7 @@
         "id": "ola",
         "fname": "Olga",
         "sname": "Latysh",
-        "image": "Olga Latysh.jpg",
+        "image": "Olga Latysh.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -767,7 +737,7 @@
         "id": "pkr",
         "fname": "Per",
         "sname": "Krarup",
-        "image": "Per Krarup.jpg",
+        "image": "Per Krarup.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -777,7 +747,7 @@
         "id": "psh",
         "fname": "Peter Skov",
         "sname": "Hansen",
-        "image": "Peter Skov Hansen.jpg",
+        "image": "Peter Skov.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -787,7 +757,7 @@
         "id": "pnn",
         "fname": "Pezhman",
         "sname": "Nakhost",
-        "image": "Pezhman Nakhost.jpg",
+        "image": "Pezhman Nakhost.png",
         "Skill": [
           "Not set",
           "Electrical"
@@ -797,17 +767,7 @@
         "id": "rho",
         "fname": "Rasmus",
         "sname": "Hovgaard",
-        "image": "Rasmus Hovgaard.jpg",
-        "Skill": [
-          "Not set",
-          "Mechanical"
-        ]
-      },
-      {
-        "id": "rsj",
-        "fname": "Rasmus Sanderhoff",
-        "sname": "Johansen",
-        "image": "Rasmus Sanderhoff Johansen.jpg",
+        "image": "Rasmus Hovgaard.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -817,7 +777,7 @@
         "id": "rej",
         "fname": "Rene Sloth",
         "sname": "Jensen",
-        "image": "Rene Sloth Jensen.jpg",
+        "image": "Rene Sloth Jensen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -827,7 +787,7 @@
         "id": "raa",
         "fname": "Ricco",
         "sname": "Aagaard",
-        "image": "Ricco Aagaard.jpg",
+        "image": "Ricco Aagaard.png",
         "Skill": [
           "Not set",
           "Electrical"
@@ -837,7 +797,7 @@
         "id": "seg",
         "fname": "Sergii",
         "sname": "Grytsan",
-        "image": "Sergii Grytsan.jpg",
+        "image": "Sergii Grytsan.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -847,7 +807,7 @@
         "id": "skh",
         "fname": "Sergii",
         "sname": "Khalchenko",
-        "image": "Sergii Khalchenko.jpg",
+        "image": "Sergii Khalchenko.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -857,7 +817,7 @@
         "id": "sem",
         "fname": "Stefan",
         "sname": "Møberg",
-        "image": "Stefan Moberg.jpg",
+        "image": "Stefan Moberg.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -867,7 +827,7 @@
         "id": "sga",
         "fname": "Stine Bech",
         "sname": "Aakerlund",
-        "image": "Stine Bech Aakerlund.jpg",
+        "image": "Stine Bech Aakerlund.png",
         "Skill": [
           "Not set",
           "Industrial Design",
@@ -878,7 +838,7 @@
         "id": "soe",
         "fname": "Svend Ove",
         "sname": "Edemann",
-        "image": "Svend Ove Edemann.jpg",
+        "image": "Svend Ove Edemann.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -888,7 +848,7 @@
         "id": "sgt",
         "fname": "Søren Grandjean",
         "sname": "Thrane",
-        "image": "Soren Grandjean Thrane.jpg",
+        "image": "Soren Thrane.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -898,7 +858,7 @@
         "id": "tas",
         "fname": "Thomas",
         "sname": "Astrup",
-        "image": "Thomas Astrup.jpg",
+        "image": "Thomas Astrup.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -908,7 +868,7 @@
         "id": "tov",
         "fname": "Thomas Overgaard",
         "sname": "Jørgensen",
-        "image": "Thomas Overgaard Joergensen.jpg",
+        "image": "Thomas Overgaard.png",
         "Skill": [
           "Not set",
           "Industrial Design",
@@ -919,7 +879,7 @@
         "id": "tvj",
         "fname": "Troels Vilsgaard",
         "sname": "Jakobsen",
-        "image": "Troels Vilsgaard Jakobsen.jpg",
+        "image": "Troels Jacobsen.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -929,7 +889,7 @@
         "id": "vik",
         "fname": "Viacheslav",
         "sname": "Korniienko",
-        "image": "Viacheslav Korniienko.jpg",
+        "image": "Viacheslav Korniienko.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -939,7 +899,7 @@
         "id": "vis",
         "fname": "Vitaliy",
         "sname": "Smirnov",
-        "image": "Vitaliy Smirnov.jpg",
+        "image": "Vitaliy Smirnov.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -949,7 +909,7 @@
         "id": "vom",
         "fname": "Volodymyr",
         "sname": "Maksymiuk",
-        "image": "Volodymyr Maksymiuk.jpg",
+        "image": "Volodymyr Maksymiuk.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -959,7 +919,7 @@
         "id": "yde",
         "fname": "Yevhenii",
         "sname": "Davydenko",
-        "image": "Yevhenii Davydenko.jpg",
+        "image": "Yevhenii Davydenko.png",
         "Skill": [
           "Not set",
           "Mechanical"
@@ -969,7 +929,7 @@
         "id": "ts",
         "fname": "Thomas",
         "sname": "Sillesen",
-        "image": "Thomas Sillesen.jpg",
+        "image": "Thomas Sillesen.png",
         "Skill": [
           "Not set",
           "administration"
