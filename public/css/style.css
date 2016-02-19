@@ -238,7 +238,7 @@ dl dd {
 
 .logo {
   width: 16%;
-  min-width: 145px;
+  min-width: 125px;
 }
 
 #footer .holder {
@@ -604,7 +604,6 @@ dl dd {
 
 .team-list {
   font-size: 0;
-  text-align: center;
 }
 .team-list li {
   font-size: 14px;
