@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BIIR - Lean Engineering | About</title>
+    <title>BIIR - Lean Engineering | Team</title>
     <meta charset="utf-8">
     <meta name="description" itemprop="description" content="BIIR is a multidisciplinary team of engineers, project managers and designers working together as one powerful and very flexible unit">
     <meta name="keywords" content="BIIR, Jonas Bojer, engineering, consultants, konsulenter, wind energy, ingeniør, project management, design, production development, quality">
@@ -20,17 +20,19 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    <script type="text/javascript" src="js/team.js"></script>
   </head>
   <body>
     <div class="wrapper">
+      <script>var teamJSON = '{"BiirTeam":{"Employee":[{"id":"jbc","fname":"Jonas Bojer","sname":"Christensen","image":"Jonas Bojer Christensen.png","Skill":["Not set","Mechanical"]},{"id":"eei","fname":"Esben Eskerod","sname":"Ifversen","image":"Esben Eskerod Ifversen.png","Skill":["Not set","Mechanical"]},{"id":"dia","fname":"Dinara","sname":"Akzhygitova","image":"Dinara Akzhygitova.png","Skill":["Not set","Administration"]},{"id":"ts","fname":"Thomas","sname":"Sillesen","image":"Thomas Sillesen.png","Skill":["Not set","administration"]},{"id":"nls","fname":"Nicole Lajgaard","sname":"Solgaard","image":"Nicole Lajgaard Solgaard.png","Skill":["Not set","administration"]}]}}';</script>
       <header id="header">
         <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="BIIR"></a></h1>
         <nav id="nav"><a href="#" class="nav-toggle-btn"><span> </span><span> </span><span> </span></a>
           <ul>
-            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="work.html">Work</a></li>
-            <li><a href="offices.html">Offices</a></li>
+            <li><a href="offices.html" class="active">Offices</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="job.html">Job</a></li>
           </ul>
@@ -39,25 +41,26 @@
       </header>
       <!-- .header-->
       <section class="middle">
-        <h2>BIIR<span class="blue"> is LEAN engineering</span></h2>
-        <div class="about-box">
-          <div class="l-holder">
-            <div class="l-60-fl">
-              <p>By removing all non-value adding elements in our organization and focusing on our specialized team, we are able to consistently deliver high quality in a very competitive manner.</p>
-              <p>We help our clients reach their business goals by understanding their core values.</p>
-              <p>Since BIIR was founded in Aarhus in 2008, we have supported a range of international clients launch successful products. We consist of a multidisciplinary team of engineers, project managers and designers working together as one powerful and very flexible unit.</p>
+        <h2>At BIIR, <span class="blue">our customers</span> are our strongest asset</h2>
+        <p>We consist of a growing multidisciplinary group of engineers, program managers and designers working together as one powerful and very flexible unit to help our customers.</p>
+        <div class="team-box-holder">
+          <div class="team-box">
+            <div class="l-holder">
+              <div class="l-150-fx">
+                <form action="#" method="">
+                  <fieldset>
+                    <label for="search-f">Search</label>
+                    <input id="search-f" type="text" placeholder="Name Surname">
+                  </fieldset>
+                </form>
+              </div>
+              <div class="l-90-fl">
+                <ul class="team-list"></ul>
+              </div>
             </div>
           </div>
-          <!-- .l-holder.about-box-->
-          <div class="l-holder">
-            <div class="l-60-fl serif-text">
-              <p><strong>BIIR offers superskills for hire</strong></p><span>Jonas Bojer<br> Founder and CEO</span>
-            </div>
-            <div class="l-40-fl"><img src="images/about-face-img.jpg" alt="Jonas Photo"></div>
-          </div>
-          <!-- .l-holder-->
         </div>
-        <!-- .about-box-->
+        <!-- .team-box-->
       </section>
       <!-- .middle-->
     </div>

@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+      title BIIR - Lean Engineering | Team
+      include ./includes/meta.jade
+      script(type='text/javascript', src='js/team.js')
+  body
+    .wrapper
+      - var page = 'team'
+      script.
+        var teamJSON = '{"BiirTeam":{"Employee":[{"id":"jbc","fname":"Jonas Bojer","sname":"Christensen","image":"Jonas Bojer Christensen.png","Skill":["Not set","Mechanical"]},{"id":"eei","fname":"Esben Eskerod","sname":"Ifversen","image":"Esben Eskerod Ifversen.png","Skill":["Not set","Mechanical"]},{"id":"dia","fname":"Dinara","sname":"Akzhygitova","image":"Dinara Akzhygitova.png","Skill":["Not set","Administration"]},{"id":"ts","fname":"Thomas","sname":"Sillesen","image":"Thomas Sillesen.png","Skill":["Not set","administration"]},{"id":"nls","fname":"Nicole Lajgaard","sname":"Solgaard","image":"Nicole Lajgaard Solgaard.png","Skill":["Not set","administration"]}]}}';
+      include ./includes/header.jade
+      section.middle
+          h2
+              | At BIIR, 
+              span.blue our customers
+              |  are our strongest asset
+          p We consist of a growing multidisciplinary group of engineers, program managers and designers working together as one powerful and very flexible unit to help our customers.
+          .team-box-holder
+            .team-box
+              .l-holder
+                  .l-150-fx
+                      form(action='#', method='')
+                        fieldset
+                            label(for='search-f') Search
+                            input#search-f(type='text', placeholder='Name Surname')
+                  .l-90-fl
+                      ul.team-list
+          // .team-box
+      // .middle
+    include ./includes/footer.jade
