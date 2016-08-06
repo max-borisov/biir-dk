@@ -127,14 +127,6 @@
     <Skill>Mechanical</Skill>
   </Employee>
 
-  <Employee id="deg">
-    <fname>Denys</fname>
-    <sname>Gorlov</sname>
-    <image>Denys Gorlov.png</image>
-    <Skill>Not set</Skill>
-    <Skill>Mechanical</Skill>
-  </Employee>
-
   <Employee id="dia">
     <fname>Dinara</fname>
     <sname>Akzhygitova</sname>
@@ -234,13 +226,6 @@
     <fname>Iben Høiris</fname>
     <sname>Overgaard</sname>
     <image>Iben Høiris Overgaard.png</image>
-    <Skill>Not set</Skill>
-    <Skill>Mechanical</Skill>
-  </Employee>
-  <Employee id="imb">
-    <fname>Ida Marie</fname>
-    <sname>Bundgaard</sname>
-    <image>Ida Marie Bundgaard.png</image>
     <Skill>Not set</Skill>
     <Skill>Mechanical</Skill>
   </Employee>
@@ -503,13 +488,6 @@
     <Skill>Not set</Skill>
     <Skill>Mechanical</Skill>
   </Employee>
-  <Employee id="msi">
-    <fname>Morten</fname>
-    <sname>Simonsen</sname>
-    <image>Morten Simonsen.png</image>
-    <Skill>Not set</Skill>
-    <Skill>Mechanical</Skill>
-  </Employee>
   <Employee id="nom">
     <fname>Nermin</fname>
     <sname>Omerovic</sname>
@@ -649,14 +627,6 @@
     <image>Stefan Møberg.png</image>
     <Skill>Not set</Skill>
     <Skill>Mechanical</Skill>
-  </Employee>
-  <Employee id="sga">
-    <fname>Stine Bech</fname>
-    <sname>Aakerlund</sname>
-    <image>Stine Bech Aakerlund.png</image>
-    <Skill>Not set</Skill>
-	<Skill>Industrial Design</Skill>
-	<Skill>3D Modeling</Skill>
   </Employee>
 
   <Employee id="soe">
